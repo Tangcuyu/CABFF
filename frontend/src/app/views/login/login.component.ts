@@ -80,6 +80,10 @@ export class LoginComponent implements OnInit {
     alert('Work In Progress');
   }
 
+  onWechatLogin() {
+    alert('Work In Progress');
+  }
+
   onTwitterLogin() {
     alert('Work In Progress');
   }

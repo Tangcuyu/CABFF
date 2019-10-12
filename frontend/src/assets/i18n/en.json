@@ -32,12 +32,21 @@
 		"emailPlaceholder": "Engter your email*",
 		"emailVaildErr": "Not a vaild email",
 		"loginButton": "LETS GO",
+		"loginSubtitle":"Sign In to your account",
 		"loginTitle": "Test Login Credentials",
+		"loginSocial":"Social Login",
 		"passwordPlaceholder": "Password...",
 		"passwordRequied": "Password is required",
+		"passwordVaildErr":"Invaild password",
+		"forget":"Forgot password?",
 		"register": "Register new Account",
+		"registerUser": "Register Now!",
 		"admin":"Admin",
-		"user":"User"
+		"user":"User",
+		"wechat":"Wechat",
+		"weibo":"Weibo",
+		"qq":"QQ",
+		"google":"Google"
 	},
 	"menu": {
 		"item0": {

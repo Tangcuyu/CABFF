@@ -9,12 +9,21 @@
 		"emailPlaceholder": "",
 		"emailVaildErr": "",
 		"loginButton": "",
+		"loginSubtitle":"",
 		"loginTitle": "",
+		"loginSocial":"",
 		"passwordPlaceholder": "",
 		"passwordRequied": "",
+		"passwordVaildErr":"",
+		"forget":"",
 		"register": "",
+		"registerUser": "",
 		"admin":"",
-		"user":""
+		"user":"",
+		"wechat":"",
+		"weibo":"",
+		"qq":"",
+		"google":""
 	},
 	"navbar": {
 		"logoTitle": "",
