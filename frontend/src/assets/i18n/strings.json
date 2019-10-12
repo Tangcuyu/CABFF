@@ -1,0 +1,27 @@
+{
+	"cart": "",
+	"header": {
+		"subhead": "",
+		"subject": ""
+	},
+	"login": {
+		"emailEnterErr": "",
+		"emailPlaceholder": "",
+		"emailVaildErr": "",
+		"loginButton": "",
+		"loginTitle": "",
+		"passwordPlaceholder": "",
+		"passwordRequied": "",
+		"register": ""
+	},
+	"navbar": {
+		"logoTitle": "",
+		"dashboard": "",
+		"users": "",
+		"settings": ""
+	},
+	"notify": {
+		"message": "",
+		"title": ""
+	}
+}

@@ -37,6 +37,13 @@ import { AuthenticationService } from './services';
 import { AuthGuard } from './guards';
 import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
 
+
+// import ngx-translate and the http loader
+import {TranslateLoader, TranslateModule} from '@ngx-translate/core';
+import {TranslateHttpLoader} from '@ngx-translate/http-loader';
+import {HttpClient} from '@angular/common/http';
+
+
 @NgModule({
   imports: [
     HttpClientModule,
@@ -53,6 +60,15 @@ import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
     BsDropdownModule.forRoot(),
     TabsModule.forRoot(),
     ChartsModule,
+    // configure the imports
+    HttpClientModule,
+    TranslateModule.forRoot({
+        loader: {
+            provide: TranslateLoader,
+            useFactory: HttpLoaderFactory,
+            deps: [HttpClient]
+        }
+    })
   ],
   declarations: [AppComponent, ...APP_CONTAINERS, P404Component, P500Component, LoginComponent, RegisterComponent],
   providers: [
@@ -66,3 +82,8 @@ import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
   bootstrap: [AppComponent],
 })
 export class AppModule {}
+
+// required for AOT compilation
+export function HttpLoaderFactory(http: HttpClient) {
+  return new TranslateHttpLoader(http);
+}

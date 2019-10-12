@@ -1,7 +1,10 @@
-import { Component, Input } from '@angular/core';
-import { navItems } from './../../_nav';
-import { AuthenticationService } from '../../services';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { Router } from '@angular/router';
+
+
+import { AuthenticationService } from '../../services';
+import { navItems } from './../../_nav';
+import { MessageService } from '../../services/message.service';
 
 @Component({
   selector: 'app-dashboard',
@@ -12,7 +15,7 @@ export class DefaultLayoutComponent {
   public sidebarMinimized = true;
   private changes: MutationObserver;
   public element: HTMLElement = document.body;
-  constructor(private router: Router, private authenticationService: AuthenticationService) {
+  constructor(private router: Router, private authenticationService: AuthenticationService, private message: MessageService) {
     this.changes = new MutationObserver(mutations => {
       this.sidebarMinimized = document.body.classList.contains('sidebar-minimized');
     });
@@ -20,6 +23,11 @@ export class DefaultLayoutComponent {
     this.changes.observe(<Element>this.element, {
       attributes: true,
     });
+  }
+
+  // public methods 界面语言切换
+  public changeLanguage(message: string) {
+    this.message.onLangChange();
   }
 
   logout() {
