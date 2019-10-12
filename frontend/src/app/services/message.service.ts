@@ -1,4 +1,4 @@
-import { EventEmitter, Injectable } from '@angular/core';
+import { Injectable } from '@angular/core';
 import {TranslateService} from '@ngx-translate/core';
 
 
@@ -8,7 +8,6 @@ import {TranslateService} from '@ngx-translate/core';
 export class MessageService {
 
   language: string;
-  languageChange: EventEmitter<string> = new EventEmitter();
 
   constructor(private translateService: TranslateService) { }
 

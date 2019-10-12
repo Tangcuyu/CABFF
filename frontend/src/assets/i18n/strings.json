@@ -12,13 +12,29 @@
 		"loginTitle": "",
 		"passwordPlaceholder": "",
 		"passwordRequied": "",
-		"register": ""
+		"register": "",
+		"admin":"",
+		"user":""
 	},
 	"navbar": {
 		"logoTitle": "",
 		"dashboard": "",
 		"users": "",
-		"settings": ""
+		"settings": "",
+		"account": {
+			"account": "",
+			"updates":"",
+			"messages":"",
+			"tasks":"",
+			"comment":"",
+			"settings":"",
+			"profile":"",
+			"setting":"",
+			"payments":"",
+			"projects":"",
+			"lockaccount":"",
+			"logout":""
+		}
 	},
 	"notify": {
 		"message": "",

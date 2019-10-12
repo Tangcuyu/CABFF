@@ -32,10 +32,12 @@
 		"emailPlaceholder": "Engter your email*",
 		"emailVaildErr": "Not a vaild email",
 		"loginButton": "LETS GO",
-		"loginTitle": "Login with social account",
+		"loginTitle": "Test Login Credentials",
 		"passwordPlaceholder": "Password...",
 		"passwordRequied": "Password is required",
-		"register": "Register new Account"
+		"register": "Register new Account",
+		"admin":"Admin",
+		"user":"User"
 	},
 	"menu": {
 		"item0": {
@@ -154,7 +156,21 @@
 		"logoTitle": "Harley-Davidson",
 		"dashboard": "Dashboard",
 		"users": "Users",
-		"settings": "Settings"
+		"settings": "Settings",
+		"account": {
+			"account": "Account",
+			"updates":"Updates",
+			"messages":"Messages",
+			"tasks":"Tasks",
+			"comment":"Comment",
+			"settings":"Settings",
+			"profile":"Profile",
+			"setting":"Setting",
+			"payments":"Payment",
+			"projects":"Projects",
+			"lockaccount":"Lock Account",
+			"logout":"Logout"
+		}
 	},
 	"notify": {
 		"401": "The email and password you entered are not valid.",

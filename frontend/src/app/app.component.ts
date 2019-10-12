@@ -16,9 +16,9 @@ export class AppComponent implements OnInit {
   constructor(private router: Router, private translateService: TranslateService) {
     // --- set i18n begin --- 翻译组件
     this.translateService.addLangs(['zh', 'en']);
-    this.translateService.setDefaultLang('en');
+    this.translateService.setDefaultLang('zh');
     const browserLang = this.translateService.getBrowserLang();
-    this.translateService.use(browserLang.match(/zh|en/) ? browserLang : 'en');
+    this.translateService.use(browserLang.match(/zh|en/) ? browserLang : 'zh');
     // --- set i18n end ---
   }
 

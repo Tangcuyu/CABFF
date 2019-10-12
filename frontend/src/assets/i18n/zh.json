@@ -32,10 +32,12 @@
 		"emailPlaceholder": "邮箱地址",
 		"emailVaildErr": "不是有效的邮箱地址",
 		"loginButton": "登 录",
-		"loginTitle": "社交账户登录",
+		"loginTitle": "测试登录的账户",
 		"passwordPlaceholder": "密码...",
 		"passwordRequied": "请输入密码",
-		"register": "注册新用户"
+		"register": "注册新用户",
+		"admin":"管理员",
+		"user":"普通用户"
 	},
 	"menu": {
 		"item0": {
@@ -154,7 +156,21 @@
 		"logoTitle": "哈雷戴维森",
 		"dashboard": "仪表盘",
 		"users": "用户",
-		"settings": "设置"
+		"settings": "设置",
+		"account": {
+			"account": "账户信息",
+			"updates":"更新",
+			"messages":"消息",
+			"tasks":"任务",
+			"comment":"回复",
+			"settings":"账户设置",
+			"profile":"个人信息",
+			"setting":"个人设置",
+			"payments":"支付",
+			"projects":"项目",
+			"lockaccount":"锁定账户",
+			"logout":"退出"
+		}
 	},
 	"notify": {
 		"401": "您输入的电子邮件和密码无效。",
