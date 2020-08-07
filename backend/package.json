@@ -36,7 +36,7 @@
     "axios": "^0.19.0",
     "body-parser": "^1.18.3",
     "cache-manager": "^2.9.0",
-    "class-transformer": "^0.2.0",
+    "class-transformer": "^0.3.1",
     "class-validator": "^0.9.1",
     "cookie-parser": "^1.4.3",
     "helmet": "^3.15.0",
